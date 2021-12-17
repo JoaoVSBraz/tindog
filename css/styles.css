@@ -46,6 +46,13 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
 .btn-download {
     margin: 5% 5% 5% 0;
 }
@@ -99,4 +106,29 @@ h1 {
 
 .icon {
     color: #ef7172;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3% ;
+}
+
+#press img {
+    width: 15%;
 }
