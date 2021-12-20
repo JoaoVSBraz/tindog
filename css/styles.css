@@ -35,9 +35,7 @@ body {
 
 #title {
     background-color: #ff4c68;
-    height: 90vh;
     color: white;
-    overflow: hidden;
 }
 
 h1 {
@@ -65,17 +63,21 @@ h2 {
 
 .dog img{
     transform: rotate(25deg);
-    width: 50%;
-    
-    /* margin-top: 80px; */
+    width: 20%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 90px;
 }
 
 /* FEATURES SECTION */
 
 #features {
+    background-color: white;
     padding: 5% 10%;
     font-size: 1rem;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .feature {
