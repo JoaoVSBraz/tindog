@@ -39,6 +39,7 @@ body {
 }
 
 h1 {
+    font-family: 'Montserrat';
     font-size: 3.2rem;
     line-height: 1.5;
     font-weight: 900;
@@ -51,7 +52,14 @@ h2 {
     line-height: 1.5;
 }
 
-.btn-download {
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1.5;
+}
+
+.btn-title {
     margin: 5% 5% 5% 0;
 }
 
@@ -149,6 +157,21 @@ h2 {
 .pricing {
     padding: 3% 2%;
 }
+
+/* CALL TO ACTION SECTION */
+
+#cta {
+    padding: 100px;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.btn-cta {
+    margin: 3% 1%;
+}
+
+/* MEDIA QUERIES */
 
 @media (max-width: 992px) {
 
