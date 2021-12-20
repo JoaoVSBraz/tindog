@@ -2,14 +2,7 @@ body {
     font-family: 'Montserrat';
 }
 
-#title {
-    background-color: #ff4c68;
-    height: 90vh;
-    color: white;
-    overflow: hidden;
-}
-
-/* NAVBAR */
+/* NAVBAR SECTION*/
 
 .container-fluid {
     padding: 3% 15%;
@@ -38,7 +31,14 @@ body {
     font-family: 'Montserrat';
 }
 
-/* HERO */
+/* TITLE SECTION */
+
+#title {
+    background-color: #ff4c68;
+    height: 90vh;
+    color: white;
+    overflow: hidden;
+}
 
 h1 {
     font-size: 3.2rem;
@@ -70,7 +70,7 @@ h2 {
     /* margin-top: 80px; */
 }
 
-/* FEATURES */
+/* FEATURES SECTION */
 
 #features {
     padding: 5% 10%;
@@ -108,7 +108,7 @@ h2 {
     color: #ef7172;
 }
 
-/* TESTIMONIALS */
+/* TESTIMONIALS SECTION*/
 
 #testimonials {
     text-align: center;
@@ -136,4 +136,14 @@ h2 {
 
 #press img {
     width: 15%;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing {
+    padding: 3% 2%;
 }
