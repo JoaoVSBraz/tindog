@@ -26,7 +26,7 @@
 
 <body>
 
-  <section id="title">
+  <section id="title" class="colored-section">
 
     <!-- Nav Bar -->
     <div class="container-fluid">
@@ -36,7 +36,7 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse navbar-menu" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="">Contact</a>
@@ -60,7 +60,7 @@
           <button type="button" class="btn btn-lg btn-outline-light btn-title"><i class="fab fa-google-play"></i>
             Download</button>
         </div>
-        <div class="dog col-lg-6">
+        <div class="flex-center col-lg-6">
           <img src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
@@ -70,43 +70,47 @@
 
   <!-- Features -->
 
-  <section id="features">
-    <div class="row">
-      <div class="feature col-lg-4">
-        <i class="icon fa-4x fas fa-check-circle"></i>
-        <h3> Easy to use.</h3>
-        <p>So easy to use, even your dog could do it.</p>
-      </div>
 
-      <div class="feature col-lg-4">
-        <i class="icon fa-4x fas fa-bullseye"></i>
-        <h3> Elite Clientele</h3>
-        <p>We have all the dogs, the greatest dogs.</p>
-      </div>
 
-      <div class="feature col-lg-4">
-        <i class="icon fa-4x fas fa-heart"></i>
-        <h3> Guaranteed to work.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
+
+  <section id="features" class="white-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="flex-center feature col-lg-4">
+          <i class="icon fa-4x fas fa-check-circle"></i>
+          <h3> Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="flex-center feature col-lg-4">
+          <i class="icon fa-4x fas fa-bullseye"></i>
+          <h3> Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="flex-center feature col-lg-4">
+          <i class="icon fa-4x fas fa-heart"></i>
+          <h3> Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
       </div>
     </div>
-
   </section>
 
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section id="testimonials" class="colored-section">
 
     <div id="testimonials-slide" class="carousel slide" data-bs-ride="carousel">
 
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active container-fluid">
           <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
           <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
           <em>Pebbles, New York</em>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item container-fluid">
           <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
             their life. I think.</h2>
           <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
@@ -139,14 +143,14 @@
 
   <!-- Pricing -->
 
-  <section id="pricing" class="text-center">
+  <section id="pricing" class="pad white-section">
 
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
     <div class="row">
-      <div class="pricing col-lg-4 col-md-6">
-        <div class="card text-center">
+      <div class="pad col-lg-4 col-md-6">
+        <div class="card">
           <div class="card-header">
             <h3>Chihuahua</h3>
           </div>
@@ -161,8 +165,8 @@
           </div>
         </div>
       </div>
-      <div class="pricing col-lg-4 col-md-6">
-        <div class="card text-center">
+      <div class="pad col-lg-4 col-md-6">
+        <div class="card">
           <div class="card-header">
             <h3>Labrador</h3>
           </div>
@@ -177,8 +181,8 @@
           </div>
         </div>
       </div>
-      <div class="pricing col-lg-4">
-        <div class="card text-center">
+      <div class="pad col-lg-4">
+        <div class="card">
           <div class="card-header">
             <h3>Mastiff</h3>
           </div>
@@ -194,7 +198,7 @@
           </div>
         </div>
       </div>
-      
+
     </div>
 
 
@@ -203,7 +207,7 @@
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section id="cta" class="pad colored-section">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
     <button class="btn btn-lg btn-dark btn-cta" type="button"><i class="fab fa-apple"></i> Download</button>
@@ -214,10 +218,11 @@
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer id="footer" class="pad white-section">
 
-    <div class="footer">
-      <i class="fab fa-twitter"></i><i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i><i class="fas fa-envelope"></i>
+    <div class="flex-center">
+      <i class="fab fa-twitter"></i><i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i><i
+        class="fas fa-envelope"></i>
     </div>
     <p>© Copyright 2021 TinDog</p>
 
