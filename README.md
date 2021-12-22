@@ -25,8 +25,8 @@ This project was built in the Angela's course - Web Development Full Course - on
 
 ### Responsive design
 
-<div style="width: 50vw; margin: 30px auto;">
-<img src="images/tindog-mobile.png">
+<div style="width: 100%;">
+<img src="images/tindog-mobile.png" style="display: flex; align-items: center; justify-content: center; width: 30vw">
 </div>
 
 ### Links
