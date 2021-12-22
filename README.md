@@ -17,6 +17,7 @@ This is Tindog. A social network to find dogs nearby to sniff and play.
     - [Author](#author)
 
 ## Overview
+<hr>
 
 ### The project
 
@@ -30,9 +31,10 @@ This project was built in the Angela's course - Web Development Full Course - on
 
 ### Links
 
-- Link do projeto online: [Tindog]()
+- See the project online: [Tindog](https://joaovsbraz.github.io/tindog/)
 
 ## My process
+<hr>
 
 ### Built with
 
@@ -48,7 +50,24 @@ Tindog was the first project that I used the bootstrap css framework to build a 
 
 I've comprehended how to use several components like buttons, cards and carousel.
 
-Furthermore, I've comprehended how to built the website maintaining the responsivity in mind.
+```html
+<div class="card">
+    <div class="card-header">
+        <h3>Chihuahua</h3>
+    </div>
+    <div class="card-body">
+        <h2>Free</h2>
+        <p>5 Matches Per Day</p>
+        <p>10 Messages Per Day</p>
+        <p>Unlimited App Usage</p>
+        <div class="d-grid">
+        <button class="btn btn-outline-primary" type="button">Sign Up</button>
+    </div>
+    </div>
+</div>
+```
+
+Furthermore, I've comprehended how to built the website maintaining the responsivity in mind with media query.
 
 ### Useful resources
 
@@ -56,5 +75,6 @@ Furthermore, I've comprehended how to built the website maintaining the responsi
 - Font Awesome: [See more here](https://fontawesome.com/)
 
 ## Author
+<hr>
 
 - Twitter: [Angela Yu](https://twitter.com/yu_angela)
