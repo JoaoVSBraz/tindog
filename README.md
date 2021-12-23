@@ -17,7 +17,6 @@ This is Tindog. A social network to find dogs nearby to sniff and play.
     - [Author](#author)
 
 ## Overview
-<hr>
 
 ### The project
 
@@ -34,7 +33,6 @@ This project was built in the Angela's course - Web Development Full Course - on
 - See the project online: [Tindog](https://joaovsbraz.github.io/tindog/)
 
 ## My process
-<hr>
 
 ### Built with
 
@@ -75,6 +73,5 @@ Furthermore, I've comprehended how to built the website maintaining the responsi
 - Font Awesome: [See more here](https://fontawesome.com/)
 
 ## Author
-<hr>
 
 - Twitter: [Angela Yu](https://twitter.com/yu_angela)
